@@ -1,0 +1,99 @@
+/*---------- hero ----------*/
+.hero-container {
+  background-image: linear-gradient(
+    rgba(149, 35, 133, 18%),
+    rgb(255, 255, 255)
+  );
+  height: 100vh;
+  position: relative;
+  display: flex;
+  column-gap: 60px;
+}
+.hero {
+  flex: 1;
+  background-repeat: no-repeat;
+  background-size: 50%;
+  display: flex;
+  align-items: center;
+}
+.content {
+  width: 70%;
+}
+.hero-left {
+  background-image: url("images/hero/doodlesLeft.png");
+  justify-content: end;
+}
+.hero-left .heading {
+  font-size: 2.3vw;
+  line-height: 2.6vw;
+}
+.hero-left .underline {
+  text-decoration: underline;
+}
+.hero-left .checklist-container {
+  list-style: none;
+  margin-top: 1vw;
+}
+.hero-left .checklist-item {
+  display: flex;
+  align-items: center;
+  column-gap: 0.6vw;
+  margin-bottom: 0.8vw;
+}
+.hero-left .thumb {
+  display: inline-block;
+  width: 1.1rem;
+  height: 0.7rem;
+  background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="26px" height="17px"><path fill-rule="evenodd" fill="rgb(149, 35, 133)" d="M22.226,16.844 L11.056,16.844 C10.973,16.844 10.895,16.826 10.815,16.819 C10.093,16.822 9.371,16.549 8.820,15.999 L1.637,8.815 C0.541,7.719 0.541,5.943 1.637,4.847 C2.732,3.752 4.509,3.752 5.604,4.847 L8.250,7.493 L8.250,2.868 C8.250,1.319 9.506,0.062 11.056,0.062 L22.226,0.062 C23.775,0.062 25.031,1.319 25.031,2.868 L25.031,14.038 C25.031,15.588 23.775,16.844 22.226,16.844 Z"/></svg>');
+  background-size: cover;
+}
+.hero-left .checklist {
+  font-size: 0.8vw;
+  font-family: "Poppins";
+  font-weight: 500;
+}
+.hero-left .offer-container {
+  margin-top: 1.5vw;
+  margin-left: 2vw;
+}
+.hero-left .offer-container .order-button {
+  font-size: 1.3vw;
+  padding: 0.5vw 2vw;
+}
+.hero-left .offer-container span {
+  font-weight: 700;
+  margin-left: 10px;
+  font-size: 1.1vw;
+}
+.hero-right {
+  background-image: url("images/hero/doodlesRight.png");
+  background-position: right top;
+}
+/* .hero-right .content img {
+  width: 100%;
+} */
+
+/*---------- navbar ----------*/
+.navbar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 25px;
+}
+.logo {
+  background-color: aqua;
+  height: 6vw;
+}
+.order-button {
+  background-color: var(--purple);
+  color: white;
+  font-weight: 500;
+  font-size: 1.4vw;
+  border: none;
+  padding: 0.4vw 1.4vw;
+  border-radius: 25px;
+}
