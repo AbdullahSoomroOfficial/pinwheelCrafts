@@ -1,5 +1,12 @@
+.pinwheel__hero {
+  height: 1300px;
+  background-image: url("images/heroBg.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
 /*---------- hero ----------*/
-.hero-container {
+/* .hero-container {
   background-image: linear-gradient(
     rgba(149, 35, 133, 18%),
     rgb(255, 255, 255)
@@ -68,13 +75,13 @@
 .hero-right {
   background-image: url("images/hero/doodlesRight.png");
   background-position: right top;
-}
+} */
 /* .hero-right .content img {
   width: 100%;
 } */
 
 /*---------- navbar ----------*/
-.navbar {
+/* .navbar {
   position: absolute;
   top: 0;
   left: 0;
@@ -95,4 +102,4 @@
   border: none;
   padding: 0.4vw 1.4vw;
   border-radius: 25px;
-}
+} */
