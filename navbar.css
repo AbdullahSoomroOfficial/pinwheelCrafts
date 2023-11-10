@@ -11,11 +11,11 @@
   left: 0;
 }
 
-.pinwheel__navbar__logo {
+.pinwheel__logo {
   /* width: 10%; */
   height: 90px;
 }
-.pinwheel__navbar__order-btn {
+.pinwheel__order-btn {
   background-color: var(--purple);
   text-decoration: none;
   color: white;
