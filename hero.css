@@ -3,6 +3,16 @@
   background-image: url("images/heroBg.png");
   background-repeat: no-repeat;
   background-size: contain;
+  /* logo-height + navbar-top-padding + needed */
+  padding-top: calc(90px + 17px + 116px);
+}
+
+.pinwheel__main-heading {
+  font-size: 2.3vw;
+  line-height: 2.6vw;
+}
+.pinwheel__underline {
+  text-decoration: underline;
 }
 
 /*---------- hero ----------*/
