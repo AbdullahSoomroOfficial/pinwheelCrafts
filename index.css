@@ -1,0 +1,25 @@
+html {
+  font-family: "Fredoka", sans-serif;
+  font-size: 16px;
+}
+
+:root {
+  --purple: #952385;
+}
+
+.pinwheel__container {
+  padding: 0px 199px;
+}
+
+.pinwheel__row {
+  display: flex;
+}
+
+.pinwheel__row * {
+  flex: 1;
+}
+
+.pinwheel__col {
+  display: flex;
+  flex-direction: column;
+}

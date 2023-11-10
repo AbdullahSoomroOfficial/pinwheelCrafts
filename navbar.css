@@ -1,0 +1,31 @@
+.pinwheel__navbar {
+  /* height: 90px; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* border: 2px solid black; */
+  padding: 17px 37px 0px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+}
+
+.pinwheel__logo {
+  /* width: 10%; */
+  height: 90px;
+}
+.pinwheel__order-btn {
+  background-color: var(--purple);
+  text-decoration: none;
+  color: white;
+  font-size: 25px;
+  font-weight: 500;
+  border-radius: 50px;
+  display: inline-block;
+  width: 197px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
