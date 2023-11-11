@@ -5,10 +5,13 @@ html {
 
 :root {
   --purple: #952385;
+  --base-viewport-size: 1920;
 }
 
+/*---------- Layout ----------*/
 .pinwheel__container {
-  padding: 0px 199px;
+  padding-left: calc(((199 / var(--base-viewport-size)) * 100) * 1vw);
+  padding-right: calc(((199 / var(--base-viewport-size)) * 100) * 1vw);
 }
 
 .pinwheel__row {
@@ -22,4 +25,9 @@ html {
 .pinwheel__col {
   display: flex;
   flex-direction: column;
+}
+
+/*---------- Generic Classes ----------*/
+.pinwheel__underline {
+  text-decoration: underline;
 }

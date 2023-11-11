@@ -3,8 +3,9 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  /* border: 2px solid black; */
-  padding: 17px 37px 0px;
+  /* padding: 17px 37px 0px; */
+  padding: calc(((17 / var(--base-viewport-size)) * 100) * 1vw)
+    calc(((37 / var(--base-viewport-size)) * 100) * 1vw) 0px;
   position: absolute;
   top: 0;
   right: 0;
@@ -13,18 +14,22 @@
 
 .pinwheel__logo {
   /* width: 10%; */
-  height: 90px;
+  /* height: 90px; */
+  height: calc(((90 / var(--base-viewport-size)) * 100) * 1vw);
 }
 .pinwheel__order-btn {
   background-color: var(--purple);
   text-decoration: none;
   color: white;
-  font-size: 25px;
+  /* font-size: 25px; */
+  font-size: calc(((25 / var(--base-viewport-size)) * 100) * 1vw);
   font-weight: 500;
   border-radius: 50px;
   display: inline-block;
-  width: 197px;
-  height: 60px;
+  /* width: 197px; */
+  width: calc(((197 / var(--base-viewport-size)) * 100) * 1vw);
+  /* height: 60px; */
+  height: calc(((60 / var(--base-viewport-size)) * 100) * 1vw);
   display: flex;
   justify-content: center;
   align-items: center;
