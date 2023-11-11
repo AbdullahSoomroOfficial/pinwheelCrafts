@@ -1,0 +1,49 @@
+.pinwheel__happy-customer-heading {
+  text-align: center;
+  font-size: calc(((40 / 1920) * 100) * 1vw);
+  margin-bottom: calc(((48 / 1920) * 100) * 1vw);
+}
+
+.pinwheel__card {
+  background-color: #def2f0;
+  border-radius: 10px;
+  font-family: "Poppins";
+  font-size: calc(((18 / 1920) * 100) * 1vw);
+  line-height: calc(((27 / 1920) * 100) * 1vw);
+  font-style: italic;
+  padding: calc(((47 / 1920) * 100) * 1vw);
+}
+.pinwheel__star {
+  width: calc(((25 / 1920) * 100) * 1vw);
+}
+.pinwheel__card-comment {
+  margin: calc(((40 / 1920) * 100) * 1vw) 0;
+  font-weight: 500;
+}
+.pinwheel__card-heading {
+  font-weight: bold;
+}
+.pinwheel__badge {
+  background-color: white;
+  color: #ff9d00;
+  padding: calc(((2 / 1920) * 100) * 1vw) calc(((20 / 1920) * 100) * 1vw);
+  border-radius: 25px;
+  margin-left: calc(((22 / 1920) * 100) * 1vw);
+}
+.pinwheel__star-container {
+  margin-top: calc(((28 / 1920) * 100) * 1vw);
+}
+.pinwheel__card-column-gap {
+  column-gap: calc(((34 / 1920) * 100) * 1vw);
+}
+.pinwheel__yellow-flower {
+  width: calc(((134 / 1920) * 100) * 1vw);
+  height: calc(((146 / 1920) * 100) * 1vw);
+}
+.pinwheel__yellow-flower-position {
+  right: calc(((-100 / 1920) * 100) * 1vw);
+  top: calc(((10 / 1920) * 100) * 1vw);
+}
+.pinwheel__testimonial-section-negative-margin {
+  margin-top: calc(((-350 / 1920) * 100) * 1vw);
+}

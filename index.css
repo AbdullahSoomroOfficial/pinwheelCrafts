@@ -31,3 +31,9 @@ html {
 .pinwheel__underline {
   text-decoration: underline;
 }
+.pinwheel__relative {
+  position: relative;
+}
+.pinwheel__absolute {
+  position: absolute;
+}
