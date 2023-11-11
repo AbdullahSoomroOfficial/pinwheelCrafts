@@ -92,12 +92,11 @@ html {
   text-decoration: underline;
 }
 
-.pinwheel__text-center {
-  text-align: center;
+.pinwheel__relative {
+  position: relative;
 }
-
-.pinwheel__fs-2 {
-  font-size: 40px;
+.pinwheel__absolute {
+  position: absolute;
 }
 
 /*++++++++++++++ NAVBAR +++++++++++++++*/
