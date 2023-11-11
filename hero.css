@@ -5,12 +5,12 @@
   background-repeat: no-repeat;
   background-size: contain;
   /* logo-height + navbar-top-padding + needed */
-  /* padding-top: calc(90px + 17px + 116px); */
+  /* padding-top: calc(90px + 17px + 100px); */
   padding-top: calc(
     calc(
       (((90 / var(--base-viewport-size)) * 100) * 1vw) +
         (((17 / var(--base-viewport-size)) * 100) * 1vw) +
-        (((116 / var(--base-viewport-size)) * 100) * 1vw)
+        (((100 / var(--base-viewport-size)) * 100) * 1vw)
     )
   );
 }
@@ -20,7 +20,7 @@
 .pinwheel__main-heading {
   /* font-size: 50px; */
   font-size: calc(((50 / var(--base-viewport-size)) * 100) * 1vw);
-  line-height: 3vw;
+  line-height: 3.6vw;
 }
 .pinwheel__checklist-container {
   /* margin-left: 24px; */
@@ -32,8 +32,8 @@
   align-items: center;
   /* column-gap: 8px; */
   column-gap: calc(((8 / var(--base-viewport-size)) * 100) * 1vw);
-  /* margin-top: 10px; */
-  margin-top: calc(((10 / var(--base-viewport-size)) * 100) * 1vw);
+  /* margin-top: 20px; */
+  margin-top: calc(((20 / var(--base-viewport-size)) * 100) * 1vw);
 }
 .pinwheel__thumb {
   flex-grow: 1;
@@ -52,7 +52,7 @@
 }
 .pinwheel__offer-container {
   /* margin-top: 34; */
-  margin-top: calc(((34 / var(--base-viewport-size)) * 100) * 1vw);
+  margin-top: calc(((24 / var(--base-viewport-size)) * 100) * 1vw);
   display: flex;
   align-items: center;
   column-gap: calc(((18 / var(--base-viewport-size)) * 100) * 1vw);
@@ -82,8 +82,5 @@
   flex-grow: 7;
 }
 .pinwheel__image-group1 {
-  background-image: url("images/group1.png");
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: center;
+  width: 110%;
 }
