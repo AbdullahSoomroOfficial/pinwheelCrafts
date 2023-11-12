@@ -1,0 +1,36 @@
+.pinwheel__photo-gallery {
+  min-height: calc(((869 / var(--base-viewport-size)) * 100) * 1vw);
+  background-image: url("images/photoGallery.png");
+  background-size: cover;
+  position: relative;
+  z-index: 1;
+}
+.pinwheel__photo-gallery-section-margin {
+  margin-top: calc(((128 / var(--base-viewport-size)) * 100) * 1vw);
+}
+
+.pinwheel__rainbow {
+  width: calc(((350 / 1920) * 100) * 1vw);
+  height: calc(((262 / 1920) * 100) * 1vw);
+  left: calc(((-22 / 1920) * 100) * 1vw);
+  top: calc(((-156 / 1920) * 100) * 1vw);
+  transform: rotate(340deg);
+}
+.pinwheel__donut {
+  width: calc(((101 / 1920) * 100) * 1vw);
+  height: calc(((103 / 1920) * 100) * 1vw);
+  right: calc(((-85 / 1920) * 100) * 1vw);
+  bottom: calc(((160 / 1920) * 100) * 1vw);
+}
+.pinwheel__flags {
+  width: calc(((203 / 1920) * 100) * 1vw);
+  height: calc(((243 / 1920) * 100) * 1vw);
+  right: calc(((-149 / 1920) * 100) * 1vw);
+  bottom: calc(((-99 / 1920) * 100) * 1vw);
+}
+.pinwheel__blue-flower {
+  width: calc(((90 / 1920) * 100) * 1vw);
+  height: calc(((95 / 1920) * 100) * 1vw);
+  right: calc(((-222 / 1920) * 100) * 1vw);
+  bottom: calc(((-60 / 1920) * 100) * 1vw);
+}

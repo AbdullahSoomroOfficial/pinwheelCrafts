@@ -2,6 +2,10 @@ html {
   font-family: "Fredoka", sans-serif;
   font-size: 16px;
 }
+body {
+  overflow-x: hidden;
+  margin-bottom: 200px;
+}
 
 :root {
   --purple: #952385;
@@ -23,8 +27,8 @@ html {
 }
 
 .pinwheel__col {
-  display: flex;
-  flex-direction: column;
+  /* display: flex;
+  flex-direction: column; */
 }
 
 /*---------- Generic Classes ----------*/
@@ -36,4 +40,17 @@ html {
 }
 .pinwheel__absolute {
   position: absolute;
+}
+
+/* Classes for all sections */
+.pinwheel__heading {
+  text-align: center;
+  font-size: calc(((40 / 1920) * 100) * 1vw);
+  margin-bottom: calc(((48 / 1920) * 100) * 1vw);
+}
+.pinwheel__text-left {
+  text-align: start;
+}
+.pinwheel__text-justify {
+  text-align: justify;
 }

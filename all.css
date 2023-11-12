@@ -18,3 +18,9 @@
 
 /*---------- testimonial ----------*/
 @import "testimonial.css";
+
+/*---------- photoGallery ----------*/
+@import "photoGallery.css";
+
+/*---------- founder ----------*/
+@import "founder.css";
