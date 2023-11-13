@@ -1,6 +1,6 @@
 .pinwheel__card {
   background-color: #def2f0;
-  border-radius: 10px;
+  border-radius: 25px;
   font-family: "Poppins";
   font-size: calc(((18 / 1920) * 100) * 1vw);
   line-height: calc(((27 / 1920) * 100) * 1vw);

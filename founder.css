@@ -44,10 +44,10 @@
   transform: rotate(45deg);
 }
 .pinwheel__heart-big {
-  width: calc(((70 / 1920) * 100) * 1vw);
+  width: calc(((80 / 1920) * 100) * 1vw);
   height: calc(((90 / 1920) * 100) * 1vw);
   left: calc(((700 / 1920) * 100) * 1vw);
-  top: calc(((-60 / 1920) * 100) * 1vw);
+  top: calc(((-80 / 1920) * 100) * 1vw);
   transform: rotate(289deg);
 }
 .pinwheel__duck {

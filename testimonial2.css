@@ -1,0 +1,11 @@
+.pinwheel__testimonial-2-container {
+  margin-top: calc(((100 / var(--base-viewport-size)) * 100) * 1vw);
+  padding: 0 calc(((96 / var(--base-viewport-size)) * 100) * 1vw);
+}
+.pinwheel__testimonial-2-container .pinwheel__row {
+  column-gap: calc(((32 / var(--base-viewport-size)) * 100) * 1vw);
+}
+
+.pinwheel__testimonial-2-container .pinwheel__row:nth-child(1) {
+  margin-bottom: calc(((32 / var(--base-viewport-size)) * 100) * 1vw);
+}

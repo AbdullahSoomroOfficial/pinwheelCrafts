@@ -1,0 +1,31 @@
+.pinwheel__footer {
+  padding: calc(((70 / var(--base-viewport-size)) * 100) * 1vw);
+}
+.pinwheel__help-container {
+  background-color: #def2f0;
+  border-radius: calc(((25 / var(--base-viewport-size)) * 100) * 1vw);
+  width: calc(((600 / var(--base-viewport-size)) * 100) * 1vw);
+  margin: 0 auto;
+  margin-top: calc(((52 / var(--base-viewport-size)) * 100) * 1vw);
+  padding: calc(((50 / var(--base-viewport-size)) * 100) * 1vw);
+}
+.pinwheel__help {
+  font-size: calc(((30 / var(--base-viewport-size)) * 100) * 1vw);
+  font-weight: 500;
+}
+.pinwheel__number {
+  font-size: calc(((41 / var(--base-viewport-size)) * 100) * 1vw);
+  font-weight: 500;
+}
+.pinwheel__email {
+  font-size: calc(((18 / var(--base-viewport-size)) * 100) * 1vw);
+  display: inline-block;
+  margin-top: calc(((28 / var(--base-viewport-size)) * 100) * 1vw);
+}
+.pinwheel__rights {
+  font-size: calc(((13 / var(--base-viewport-size)) * 100) * 1vw);
+  font-family: calc(((27 / var(--base-viewport-size)) * 100) * 1vw);
+  font-family: "Poppins";
+  display: inline-block;
+  margin-top: calc(((114 / var(--base-viewport-size)) * 100) * 1vw);
+}

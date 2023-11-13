@@ -24,3 +24,15 @@
 
 /*---------- founder ----------*/
 @import "founder.css";
+
+/*---------- productList ----------*/
+@import "productList.css";
+
+/*---------- testimonial 2 ----------*/
+@import "testimonial2.css";
+
+/*---------- limited Time Offer ----------*/
+@import "limitedTimeOffer.css";
+
+/*---------- footer ----------*/
+@import "footer.css";

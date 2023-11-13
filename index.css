@@ -4,7 +4,6 @@ html {
 }
 body {
   overflow-x: hidden;
-  margin-bottom: 200px;
 }
 
 :root {
@@ -41,16 +40,22 @@ body {
 .pinwheel__absolute {
   position: absolute;
 }
+.pinwheel__margin-top-0 {
+  margin-top: 0 !important;
+}
+.pinwheel__text-left {
+  text-align: start !important;
+}
+.pinwheel__text-justify {
+  text-align: justify !important;
+}
+.pinwheel__text-center {
+  text-align: center !important;
+}
 
 /* Classes for all sections */
 .pinwheel__heading {
   text-align: center;
   font-size: calc(((40 / 1920) * 100) * 1vw);
   margin-bottom: calc(((48 / 1920) * 100) * 1vw);
-}
-.pinwheel__text-left {
-  text-align: start;
-}
-.pinwheel__text-justify {
-  text-align: justify;
 }
