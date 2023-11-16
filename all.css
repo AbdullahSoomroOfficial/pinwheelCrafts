@@ -37,7 +37,7 @@
 /*---------- footer ----------*/
 @import "footer.css";
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
   .pinwheel__row {
     flex-direction: column;
     justify-items: center;
