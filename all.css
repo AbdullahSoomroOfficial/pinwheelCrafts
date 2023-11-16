@@ -36,3 +36,50 @@
 
 /*---------- footer ----------*/
 @import "footer.css";
+
+@media (max-width: 768px) {
+  .pinwheel__row {
+    flex-direction: column;
+    justify-items: center;
+    row-gap: calc(((40 / var(--base-viewport-size)) * 100) * 1vw);
+  }
+  .pinwheel__col {
+    align-items: center;
+  }
+  .pinwheel__hero {
+    height: auto;
+  }
+  .pinwheel__image-group1 {
+    width: 60%;
+  }
+  .pinwheel__testimonial-section-negative-margin {
+    margin-top: 40px;
+  }
+  .pinwheel__photo-gallery-section-margin {
+    margin-top: 80px;
+  }
+  .pinwheel__founder-section-margin {
+    margin-top: 120px;
+  }
+  .pinwheel__heart-big {
+    left: calc(((1200 / 1920) * 100) * 1vw);
+    top: calc(((-100 / 1920) * 100) * 1vw);
+  }
+  .pinwheel__heart-small {
+    left: calc(((1190 / 1920) * 100) * 1vw);
+    top: calc(((0 / 1920) * 100) * 1vw);
+  }
+  .pinwheel__duck {
+    right: calc(((300 / 1920) * 100) * 1vw);
+    bottom: calc(((60 / 1920) * 100) * 1vw);
+  }
+  .pinwheel__testimonial-2-container .pinwheel__card {
+    min-width: 80%;
+  }
+  .pinwheel__product-bundle {
+    min-width: 350px;
+  }
+  .pinwheel__product-list-container .pinwheel__row {
+    flex-direction: row;
+  }
+}

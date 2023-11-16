@@ -1,5 +1,4 @@
 .pinwheel__hero {
-  /* height: 1300px; */
   height: calc(((1300 / var(--base-viewport-size)) * 100) * 1vw);
   background-image: url("images/heroBg.png");
   background-repeat: no-repeat;

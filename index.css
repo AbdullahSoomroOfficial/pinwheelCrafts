@@ -26,8 +26,8 @@ body {
 }
 
 .pinwheel__col {
-  /* display: flex;
-  flex-direction: column; */
+  display: flex;
+  flex-direction: column;
 }
 
 /*---------- Generic Classes ----------*/

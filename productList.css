@@ -1,3 +1,6 @@
+.pinwheel__product-list-container {
+  margin-top: 60px;
+}
 .pinwheel__product-container {
   margin-top: calc(((80 / var(--base-viewport-size)) * 100) * 1vw);
   column-gap: calc(((80 / var(--base-viewport-size)) * 100) * 1vw);
