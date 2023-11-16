@@ -19,6 +19,7 @@
 }
 .pinwheel__founder-image-container {
   text-align: end;
+  display: block;
 }
 .pinwheel__founder-container {
   column-gap: calc(((54 / 1920) * 100) * 1vw);
