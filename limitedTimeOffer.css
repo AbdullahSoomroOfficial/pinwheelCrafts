@@ -31,8 +31,8 @@
   display: inline-block;
 }
 .pinwheel__product-bundle-image {
-  width: calc(((195 / var(--base-viewport-size)) * 100) * 1vw);
-  height: calc(((195 / var(--base-viewport-size)) * 100) * 1vw);
+  width: calc(((194 / var(--base-viewport-size)) * 100) * 1vw);
+  height: calc(((194 / var(--base-viewport-size)) * 100) * 1vw);
   margin-top: calc(((40 / var(--base-viewport-size)) * 100) * 1vw);
   margin-bottom: calc(((10 / var(--base-viewport-size)) * 100) * 1vw);
 }
